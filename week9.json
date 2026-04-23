@@ -1,0 +1,177 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 9,
+  "assignment": 9,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Sensor-Cloud is an integration of Cloud Computing and ____.",
+      "options": {
+        "a": "Mobile Computing",
+        "b": "Wireless Sensor Networks (WSN)",
+        "c": "Distributed Computing",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "Sensor-cloud is a paradigm that integrates Wireless Sensor Networks (WSN) with Cloud Computing to provide sensors-as-a-service."
+    },
+    {
+      "question_number": 2,
+      "question": "Which of the following is NOT a challenge in Sensor-Cloud systems?",
+      "options": {
+        "a": "Data Management",
+        "b": "Energy Efficiency",
+        "c": "Security",
+        "d": "Abundance of Power"
+      },
+      "correct_answer": "d",
+      "explanation": "Sensor-cloud systems face significant challenges in data management, energy efficiency, and security; however, they typically suffer from power constraints rather than an abundance of power."
+    },
+    {
+      "question_number": 3,
+      "question": "State true or false. Statement: Fog computing is a decentralized computing infrastructure.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Fog computing extends cloud services to the edge of the network, creating a decentralized architecture that brings data processing closer to the devices."
+    },
+    {
+      "question_number": 4,
+      "question": "The primary objective of Fog Computing is to reduce ____.",
+      "options": {
+        "a": "Storage",
+        "b": "Latency",
+        "c": "Computing power",
+        "d": "Connectivity"
+      },
+      "correct_answer": "b",
+      "explanation": "By processing data closer to the source at the network edge, Fog Computing significantly reduces the latency compared to sending all data to a centralized cloud."
+    },
+    {
+      "question_number": 5,
+      "question": "Which of the following is/are feature(s) of Fog Computing?",
+      "options": {
+        "a": "Low latency",
+        "b": "Wide geographical distribution",
+        "c": "Mobility support",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Fog Computing is characterized by low latency, high geographical distribution, and robust support for mobile nodes and applications."
+    },
+    {
+      "question_number": 6,
+      "question": "State true or false. Statement: Edge computing and Fog computing are exactly the same.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "While similar in bringing computation to the edge, Fog computing involves the network infrastructure (routers, switches), whereas Edge computing focuses on the end-devices themselves."
+    },
+    {
+      "question_number": 7,
+      "question": "In a Sensor-Cloud environment, the 'Users' can be",
+      "options": {
+        "a": "Human end-users",
+        "b": "Software applications",
+        "c": "Other cloud services",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Users in a sensor-cloud architecture can include people, automated software systems, or other integrated cloud platforms."
+    },
+    {
+      "question_number": 8,
+      "question": "Virtualization of sensors in Sensor-Cloud allows ____.",
+      "options": {
+        "a": "Multiple users to share the same physical sensor",
+        "b": "One user to access only one sensor",
+        "c": "Sensors to stop working",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "Sensor virtualization enables physical sensor resources to be shared among multiple users or applications simultaneously through virtual instances."
+    },
+    {
+      "question_number": 9,
+      "question": "State true or false. Statement: Smart Grids are an application area of Sensor-Cloud.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Smart grids utilize the scalable monitoring and data analysis capabilities of sensor-cloud systems for efficient energy management."
+    },
+    {
+      "question_number": 10,
+      "question": "Which protocol is commonly used for communication in Fog nodes?",
+      "options": {
+        "a": "MQTT",
+        "b": "CoAP",
+        "c": "HTTP",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Fog nodes can utilize various lightweight protocols like MQTT and CoAP, as well as standard web protocols like HTTP, depending on the application requirements."
+    },
+    {
+      "question_number": 11,
+      "question": "Cloud computing provides ____ while Fog computing provides ____.",
+      "options": {
+        "a": "Global centralized control, Local decentralized control",
+        "b": "Local control, Global control",
+        "c": "No control, Full control",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "Cloud computing offers large-scale centralized processing and storage, whereas Fog computing provides localized, decentralized processing at the edge."
+    },
+    {
+      "question_number": 12,
+      "question": "State true or false. Statement: High mobility is a challenge in Fog Computing.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Managing connectivity and state for fast-moving devices across different fog nodes is a significant technical challenge."
+    },
+    {
+      "question_number": 13,
+      "question": "Which of the following is an advantage of using Sensor-Cloud?",
+      "options": {
+        "a": "Scalability",
+        "b": "Multi-tenancy",
+        "c": "Reduced cost",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Sensor-cloud offers elastic scalability, supports multiple users (multi-tenancy), and reduces costs by optimizing resource utilization."
+    },
+    {
+      "question_number": 14,
+      "question": "The middle layer in a typical three-tier Fog architecture is the ____.",
+      "options": {
+        "a": "Cloud layer",
+        "b": "Fog layer",
+        "c": "Device layer",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "In a three-tier model, the Fog layer sits between the bottom Device layer and the top Cloud layer to handle intermediate processing."
+    },
+    {
+      "question_number": 15,
+      "question": "State true or false. Statement: Fog Computing is primarily intended for applications with high latency tolerance.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Fog Computing is specifically designed for applications that require very low latency and real-time responsiveness."
+    }
+  ]
+}

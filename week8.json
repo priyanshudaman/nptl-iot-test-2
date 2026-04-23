@@ -1,0 +1,179 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 8,
+  "assignment": 8,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Which of the following is true with respect to Network Virtualization?",
+      "options": {
+        "a": "It abstracts the virtual network on a physical network",
+        "b": "It abstracts the physical network on a virtual network",
+        "c": "It is essentially a collection of physical SDN routers",
+        "d": "Network virtualization is a non-existent concept."
+      },
+      "correct_answer": "a",
+      "explanation": "Network Virtualization abstracts physical resources from network services, effectively abstracting a virtual network on top of a physical network[cite: 1715, 1716, 1719]."
+    },
+    {
+      "question_number": 2,
+      "question": "For rule placement at the edge with respect to Software Defined IoT, which of the following is a critical issue that is required to be addressed?",
+      "options": {
+        "a": "Existence of loT nodes",
+        "b": "Data through routers",
+        "c": "Mobility of end users and nodes",
+        "d": "None of the given."
+      },
+      "correct_answer": "c",
+      "explanation": "In SD-IoT, a critical challenge at the access layer is that users are typically mobile in nature, creating a highly dynamic network that requires frequent changes in rule placement[cite: 1730, 1731, 1734]."
+    },
+    {
+      "question_number": 3,
+      "question": "Which cloud service model allows users to deploy and control their own software, including operating systems, while the provider manages the infrastructure?",
+      "options": {
+        "a": "SaaS",
+        "b": "PaaS",
+        "c": "laaS",
+        "d": "DBaaS"
+      },
+      "correct_answer": "c",
+      "explanation": "Infrastructure-as-a-Service (IaaS) provides the facility to access computing resources where users can deploy, execute, and control any software, including operating systems[cite: 1742, 1743, 1744]."
+    },
+    {
+      "question_number": 4,
+      "question": "Which of the following is NOT a characteristic of Platform-as-a-Service (PaaS)?",
+      "options": {
+        "a": "Provides tools for application deployment",
+        "b": "Requires users to manage the virtual machines",
+        "c": "Offers elastic scaling of applications",
+        "d": "Simplifies development by abstracting the infrastructure"
+      },
+      "correct_answer": "b",
+      "explanation": "PaaS removes the need for organizations to manage underlying infrastructure like hardware and operating systems, allowing them to focus solely on application deployment[cite: 1757, 1762]."
+    },
+    {
+      "question_number": 5,
+      "question": "Which essential characteristic of cloud computing refers to the ability of resources to be scaled up or down automatically?",
+      "options": {
+        "a": "Resource pooling",
+        "b": "Broad network access",
+        "c": "Elasticity",
+        "d": "None of the given"
+      },
+      "correct_answer": "c",
+      "explanation": "Rapid elasticity allows for the dynamic allocation and release of resources to facilitate scale-out and scale-in automatically[cite: 1772, 1774, 1777]."
+    },
+    {
+      "question_number": 6,
+      "question": "An organization A wants to deploy a cloud infrastructure where certain private data is on-premise and accessible only by authenticated members, while the rest is in a global cloud. Which deployment model should be used?",
+      "options": {
+        "a": "Private Cloud",
+        "b": "Public cloud",
+        "c": "Hybrid Cloud",
+        "d": "Any of these"
+      },
+      "correct_answer": "c",
+      "explanation": "A Hybrid Cloud is a set-up constructed of two or more unique cloud set-ups (such as private and public) pooled together[cite: 1785, 1787, 1793]."
+    },
+    {
+      "question_number": 7,
+      "question": "A Private Cloud deployment model cannot provide laaS but can provide PaaS.",
+      "options": {
+        "a": "False",
+        "b": "True"
+      },
+      "correct_answer": "a",
+      "explanation": "Security of cloud infrastructure must be assured for both public and private clouds across all service models: SaaS, PaaS, and IaaS[cite: 1800, 1801, 1806]."
+    },
+    {
+      "question_number": 8,
+      "question": "What is the primary function of a Light Virtual Access Point (LVAP) in the ODN architecture for SDN-based loT?",
+      "options": {
+        "a": "Acts as a firewall between user devices and access points",
+        "b": "Enables virtualization of Wi-Fi APs for per-client network control",
+        "c": "Encrypts user traffic before forwarding to the cloud",
+        "d": "Controls routing at the backbone of the network"
+      },
+      "correct_answer": "b",
+      "explanation": "In the Odin architecture, an LVAP is assigned to clients to manage virtualization and respond to frames for fine-grained control[cite: 1821, 1834, 1835]."
+    },
+    {
+      "question_number": 9,
+      "question": "With respect to Virtualization, if one VM runs on a hypervisor, another VM is unable to use the hypervisor.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Virtualization allows one computer host to appear as many computers (VMs), sharing the same physical resource pool simultaneously[cite: 2140, 2142, 2144, 1842]."
+    },
+    {
+      "question_number": 10,
+      "question": "Through which cloud service model do you use an image editing application without explicitly installing it on your local system?",
+      "options": {
+        "a": "SaaS",
+        "b": "PaaS",
+        "c": "laas",
+        "d": "Daas"
+      },
+      "correct_answer": "a",
+      "explanation": "Software as a Service (SaaS) delivers applications over the internet, allowing use without local installation[cite: 1852]."
+    },
+    {
+      "question_number": 11,
+      "question": "Which of the following best defines 'measured service' in cloud computing?",
+      "options": {
+        "a": "Cloud resources are billed only annually",
+        "b": "Users must request reports manually for resource usage",
+        "c": "Cloud systems automatically control and optimize resources based on metering",
+        "d": "None of the given"
+      },
+      "correct_answer": "c",
+      "explanation": "Measured service involves recording and monitoring resource usage to dynamically control and optimize resources transparently[cite: 1858, 1859, 1860, 1861]."
+    },
+    {
+      "question_number": 12,
+      "question": "With respect to Cloud security, which of the following is expected to have a higher level of security in a generic sense?",
+      "options": {
+        "a": "Public Cloud",
+        "b": "Private Cloud"
+      },
+      "correct_answer": "b",
+      "explanation": "In a comparison of cloud types, the security level for a Public Cloud is generally considered low while a Private Cloud is considered high[cite: 1872, 1874]."
+    },
+    {
+      "question_number": 13,
+      "question": "Data security and client authentication is an issue in which of the following cloud service models?",
+      "options": {
+        "a": "SaaS",
+        "b": "SaaS and PaaS",
+        "c": "laas",
+        "d": "All of them"
+      },
+      "correct_answer": "d",
+      "explanation": "Infrastructure security building levels, including application and network security, apply across SaaS, PaaS, and IaaS models[cite: 1801, 1802, 1881]."
+    },
+    {
+      "question_number": 14,
+      "question": "In cloud computing, the users have specific knowledge about the exact physical location of the computing hardware.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "A key characteristic of cloud computing is that resources are abstracted and pooled, often leaving the user with no specific knowledge of the exact hardware location[cite: 1888]."
+    },
+    {
+      "question_number": 15,
+      "question": "GreenCloud implementation focuses most on which of the following aspects?",
+      "options": {
+        "a": "Scalability",
+        "b": "Energy",
+        "c": "Reversibility",
+        "d": "Computation"
+      },
+      "correct_answer": "b",
+      "explanation": "GreenCloud monitors and focuses on the energy consumption of data centers (servers, switches, etc.) to reduce operational expenses[cite: 1896, 1901, 1902]."
+    }
+  ]
+}

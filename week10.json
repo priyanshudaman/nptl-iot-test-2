@@ -1,0 +1,187 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 10,
+  "assignment": 10,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "DLNA (used in HAN standards) expands to:",
+      "options": {
+        "a": "Digital Lifestyle Network Alliance",
+        "b": "Digital Living Network Alliance",
+        "c": "Digital Lifestyle Network Algorithm",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "DLNA stands for Digital Living Network Alliance, a trade organization created by Sony, Intel, and Microsoft to connect cable-based and wireless networks for media sharing[cite: 2159, 2160, 2164]."
+    },
+    {
+      "question_number": 2,
+      "question": "Which property best characterizes V2X?",
+      "options": {
+        "a": "Restricted to a single source",
+        "b": "Distributed architecture",
+        "c": "Both a and b",
+        "d": "Neither a nor b"
+      },
+      "correct_answer": "b",
+      "explanation": "V2X (Vehicle-to-Everything) communication follows a distributed architecture where content is widely distributed over the network and is not restricted to a single source[cite: 2174, 2178, 2183]."
+    },
+    {
+      "question_number": 3,
+      "question": "Which set correctly captures smart-home functionality?",
+      "options": {
+        "a": "Health monitoring only",
+        "b": "Security only",
+        "c": "Both health monitoring and security",
+        "d": "Neither"
+      },
+      "correct_answer": "c",
+      "explanation": "Smart-home functionality encompasses multiple areas, including health monitoring, conservation of resources, and security and safety[cite: 2191, 2194, 2200]."
+    },
+    {
+      "question_number": 4,
+      "question": "Which are valid types of sensing?",
+      "options": {
+        "a": "Stationary",
+        "b": "Mobile",
+        "c": "Both a and b",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "In environments like smart parking, information sensing can be either stationary (fixed sensors detecting presence) or mobile (collecting info along a route)[cite: 2211, 2216, 2218]."
+    },
+    {
+      "question_number": 5,
+      "question": "Which layers are part of the Zigbee stack?",
+      "options": {
+        "a": "Physical and transport",
+        "b": "MAC and transport",
+        "c": "Network and MAC",
+        "d": "Transport and MAC"
+      },
+      "correct_answer": "c",
+      "explanation": "The Zigbee stack is built on the IEEE 802.15.4 standard and includes the Network and MAC layers[cite: 2224]."
+    },
+    {
+      "question_number": 6,
+      "question": "Smart parking primarily reduces traffic ____.",
+      "options": {
+        "a": "mobility",
+        "b": "area",
+        "c": "analysis",
+        "d": "congestion"
+      },
+      "correct_answer": "d",
+      "explanation": "By shortening the parking search time for drivers, smart parking systems directly reduce traffic congestion and pollution[cite: 2233, 2234, 2239]."
+    },
+    {
+      "question_number": 7,
+      "question": "About Home Area Network (HAN), consider: I) Multi-protocol gateway bridges non-IP to IP. II) Wired HAN is low cost. III) Wireless HAN makes implementation easy. Which of these is correct?",
+      "options": {
+        "a": "Only I",
+        "b": "I and II only",
+        "c": "I and III only",
+        "d": "I, II, and III"
+      },
+      "correct_answer": "d",
+      "explanation": "All statements are correct: multi-protocol gateways bridge different device types, wired HAN (using existing power lines) is low cost, and wireless HAN simplifies implementation[cite: 2245, 2246, 2247]."
+    },
+    {
+      "question_number": 8,
+      "question": "Which statements about smart health are true? I) Low-cost and portable II) Allows remote check-ups and diagnosis III) Effortless health monitoring",
+      "options": {
+        "a": "I only",
+        "b": "II only",
+        "c": "I, II, and III",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "Smart health is characterized by being low-cost and portable, enabling remote diagnosis, and allowing for effortless on-body health monitoring[cite: 2259, 2260, 2261, 2264, 2265]."
+    },
+    {
+      "question_number": 9,
+      "question": "Phases of Intelligent Connected Vehicle (ICV) development include:",
+      "options": {
+        "a": "Based on 2G",
+        "b": "Based on 4G LTE",
+        "c": "Both a and b",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "ICV development has evolved from Phase-1 (based on 2G/3G) for basic infotainment to Phase-2 (based on 4G LTE or DSRC) for intelligent transportation services[cite: 2274, 2277, 2281]."
+    },
+    {
+      "question_number": 10,
+      "question": "In the Ad-hoc domain of VANET, vehicles are:",
+      "options": {
+        "a": "Stationary",
+        "b": "Mobile",
+        "c": "Fixed to RSUs only",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "In the ad-hoc domain of VANET, the On-Board Units (OBUs) in vehicles are mobile, while Road-Side Units (RSUs) are static[cite: 2291, 2292, 2295]."
+    },
+    {
+      "question_number": 11,
+      "question": "Domains of VANET include:",
+      "options": {
+        "a": "In-vehicle and ad-hoc",
+        "b": "Ad-hoc and data center",
+        "c": "Data center",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "VANET domains are categorized into in-vehicle, ad-hoc, and infrastructure domains[cite: 2305, 2306, 2308, 2310]."
+    },
+    {
+      "question_number": 12,
+      "question": "At which data fusion stage are multiple classifier outputs combined?",
+      "options": {
+        "a": "Pixel level",
+        "b": "Feature level",
+        "c": "Signal level",
+        "d": "Decision level"
+      },
+      "correct_answer": "d",
+      "explanation": "The decision level stage involves an ensemble of decisions where multiple classifier or sensor outputs are combined for a final result[cite: 2318, 2319, 2326]."
+    },
+    {
+      "question_number": 13,
+      "question": "The Body & Brain Architecture consists of how many layers?",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correct_answer": "c",
+      "explanation": "Body & Brain is a three-layered in-vehicle networking architecture consisting of the Body (sensors), Nervous System (transport), and Brain (coordination/intelligence)[cite: 2337, 2341]."
+    },
+    {
+      "question_number": 14,
+      "question": "Which statement about smart home infrastructure is correct?",
+      "options": {
+        "a": "It cannot include wireless devices.",
+        "b": "It may include wired and/or wireless devices.",
+        "c": "It must be wireless-only.",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "Smart home infrastructure integrates various devices using both wired and wireless technologies for personalized and safe living spaces[cite: 2352, 2355]."
+    },
+    {
+      "question_number": 15,
+      "question": "Intelligent Connected Vehicles (ICV) communication is based on:",
+      "options": {
+        "a": "Dedicated Short Range Communication",
+        "b": "Directed Short Range Communication",
+        "c": "Dedicated Small Range Communication",
+        "d": "All of these"
+      },
+      "correct_answer": "a",
+      "explanation": "ICV communication is based on Dedicated Short Range Communication (DSRC) technology, using standards like IEEE 802.11p[cite: 2361, 2362, 2364]."
+    }
+  ]
+}

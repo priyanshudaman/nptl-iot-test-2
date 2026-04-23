@@ -1,0 +1,181 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 7,
+  "assignment": 7,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "A Raspberry Pi can read data from a sensor but cannot send it over to a remote server for further processing.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "A Raspberry Pi is capable of both reading sensor data through its GPIO pins and transmitting that data to a remote server using its built-in connectivity features like Ethernet or Wi-Fi[cite: 1432]."
+    },
+    {
+      "question_number": 2,
+      "question": "In Python socket programming, with respect to the sock.bind(server_address) function, which among the following does the variable server_address contain?",
+      "options": {
+        "a": "IP address of destination",
+        "b": "Port number of destination server",
+        "c": "Neither IP address nor port number of destination server",
+        "d": "Both IP address and port number of destination server"
+      },
+      "correct_answer": "d",
+      "explanation": "In socket programming, 'server_address' is a tuple that includes both the IP address and the port number to which the socket will bind[cite: 1452]."
+    },
+    {
+      "question_number": 3,
+      "question": "In Python matplotlib, in order to display the graphical plot on a terminal, the command plt.plot() is used in conjunction with which of the following?",
+      "options": {
+        "a": "plt.plt()",
+        "b": "plt.show()",
+        "c": "plt.xtics()",
+        "d": "plt.axes()"
+      },
+      "correct_answer": "b",
+      "explanation": "While 'plt.plot()' creates the plot in the system's memory, 'plt.show()' is the specific command required to render and display that plot on the screen[cite: 1469]."
+    },
+    {
+      "question_number": 4,
+      "question": "Observe the code very carefully. Will the code plot the desired parabola?",
+      "options": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "correct_answer": "b",
+      "explanation": "The code will fail because it calls 'plt.legend()' without any defined labels and is missing the 'plt.plot(x, y)' method necessary to actually draw the data before attempting to show it[cite: 1500, 1501]."
+    },
+    {
+      "question_number": 5,
+      "question": "With respect to the above Question (Question 4), which the must be added to make the code display the parabola?",
+      "options": {
+        "a": "Nothing, the code works fine",
+        "b": "plt.xtics() method",
+        "c": "plt.plot() method",
+        "d": "plt.setfigure() method"
+      },
+      "correct_answer": "c",
+      "explanation": "The 'plt.plot(x, y)' method is the essential missing instruction required to draw the calculated points of the parabola on the figure[cite: 1507]."
+    },
+    {
+      "question_number": 6,
+      "question": "In Python, suppose that that string text = 'It is my#birthday! I am Happy'. What will the output of the following instruction data=text.split(' ') print(data[1])?",
+      "options": {
+        "a": "It is my#birthday! I am Happy",
+        "b": "is",
+        "c": "am Happy",
+        "d": "It is"
+      },
+      "correct_answer": "b",
+      "explanation": "The 'split(' ')' function breaks the string into a list at each space; index [1] corresponds to the second word in the resulting list, which is 'is'[cite: 1532]."
+    },
+    {
+      "question_number": 7,
+      "question": "Consider the same text again text = 'It^is my#birthday! I am*Happy'. Now consider the following instructions. What will be the output? data=text.split('r') print(data[1].split('bi'))",
+      "options": {
+        "a": "my#birth",
+        "b": "*Happy",
+        "c": "thday! I am*Happy",
+        "d": "It is"
+      },
+      "correct_answer": "c",
+      "explanation": "Splitting at 'r' makes 'data[1]' the string 'thday! I am*Happy'. Since 'bi' is not found in this new string, splitting it by 'bi' leaves the string unchanged[cite: 1548, 1550, 1551]."
+    },
+    {
+      "question_number": 8,
+      "question": "With respect to SDN for IoT what does 'end-devices' in the phrase 'control for end-devices' mean?",
+      "options": {
+        "a": "SDN Controllers",
+        "b": "SDN Switches",
+        "c": "Sensors and Actuators",
+        "d": "Database"
+      },
+      "correct_answer": "c",
+      "explanation": "In the context of Software Defined IoT, end-devices specifically refer to the sensors and actuators located at the edge of the network[cite: 1566, 1571]."
+    },
+    {
+      "question_number": 9,
+      "question": "A Network Operating System (NOS) resides in which of the following logical plane?",
+      "options": {
+        "a": "Application Plane",
+        "b": "Control Plane",
+        "c": "Data Plane",
+        "d": "Both Data Plane as well as Application Plane"
+      },
+      "correct_answer": "b",
+      "explanation": "The Network Operating System (NOS) is a core component of the Control Plane, where it manages network intelligence and directs traffic[cite: 1577]."
+    },
+    {
+      "question_number": 10,
+      "question": "Which of the following network topologies does this figure relate to?",
+      "options": {
+        "a": "Ring topology",
+        "b": "Bus topology",
+        "c": "Mesh topology",
+        "d": "Tree topology"
+      },
+      "correct_answer": "c",
+      "explanation": "The structure where multiple nodes are directly interconnected, allowing various paths for communication, represents a mesh topology[cite: 1593, 1594]."
+    },
+    {
+      "question_number": 11,
+      "question": "With respect to the same figure (given below), what does the blue directional dotted arrows from the controller to the switches represent?",
+      "options": {
+        "a": "Northbound API",
+        "b": "Southbound API",
+        "c": "Eastbound API",
+        "d": "Westbound API"
+      },
+      "correct_answer": "b",
+      "explanation": "Communication from the control layer down to the infrastructure layer (switches) is handled by Southbound APIs, such as the OpenFlow protocol[cite: 1604, 1614]."
+    },
+    {
+      "question_number": 12,
+      "question": "Consider the following figure below. To which issue of SDN does this particular figure can be related to?",
+      "options": {
+        "a": "Controller placement issue",
+        "b": "Flow Rule placement issue",
+        "c": "Hardware placement issue",
+        "d": "Analysis placement issue"
+      },
+      "correct_answer": "b",
+      "explanation": "Tables defining how switches should forward traffic based on priorities are related to the 'Flow-Rule' placement issue in SDN[cite: 1640, 1647]."
+    },
+    {
+      "question_number": 13,
+      "question": "Which among the following is the most suitable utility of Mininet?",
+      "options": {
+        "a": "To act as a virtual sensor",
+        "b": "To provide a simulation environment for SDN with OpenFlow",
+        "c": "To act as a generic antenna simulator",
+        "d": "To perform load testing and analysis."
+      },
+      "correct_answer": "b",
+      "explanation": "Mininet is a tool used to create virtual networks containing OpenFlow-enabled switches, providing an environment for SDN testing[cite: 1655, 1659]."
+    },
+    {
+      "question_number": 14,
+      "question": "Control of end devices such as sensors and actuators do not form a use-case for Software Defined IoT.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "The centralized control and management of sensors and actuators is actually a primary and key use-case for Software Defined IoT[cite: 1670, 1674]."
+    },
+    {
+      "question_number": 15,
+      "question": "With respect to packet delivery ratio, which of the following is true?",
+      "options": {
+        "a": "WSN outperforms Soft-WSN",
+        "b": "Soft-WSN outperforms WSN",
+        "c": "Neither of Soft-WSN and WSN outperform each other",
+        "d": "No relation between Soft-WSN and WSN"
+      },
+      "correct_answer": "b",
+      "explanation": "Experiments show that the packet delivery ratio in a network is improved when using Soft-WSN compared to traditional WSN setups[cite: 1700, 1701]."
+    }
+  ]
+}

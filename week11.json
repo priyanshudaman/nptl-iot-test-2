@@ -1,0 +1,183 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 11,
+  "assignment": 11,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "What are some of the other names of the smart grids?",
+      "options": {
+        "a": "Energy internet",
+        "b": "Electricity with a hand",
+        "c": "Electrolyte",
+        "d": "All of these"
+      },
+      "correct_answer": "a",
+      "explanation": "The term 'Energy Internet' is a known alternative name for smart grids, describing a modernized, interconnected electrical system[cite: 2374]."
+    },
+    {
+      "question_number": 2,
+      "question": "Which of the following is not done in traditional electrical grids?",
+      "options": {
+        "a": "Manual energy monitoring",
+        "b": "Unidirectional energy distribution",
+        "c": "Unidirectional communication",
+        "d": "Distributed power plants"
+      },
+      "correct_answer": "d",
+      "explanation": "Traditional electrical grids rely on centralized power plants, whereas smart grids incorporate distributed power generation[cite: 2381, 2382]."
+    },
+    {
+      "question_number": 3,
+      "question": "Which of the following is a benefit associated with smart grids for customers?",
+      "options": {
+        "a": "Reduced transmission of electricity",
+        "b": "Higher electricity rates",
+        "c": "Less security",
+        "d": "Different pricing options"
+      },
+      "correct_answer": "d",
+      "explanation": "Smart grids enable dynamic pricing options, allowing customers to save costs by shifting usage to off-peak hours[cite: 2387]."
+    },
+    {
+      "question_number": 4,
+      "question": "Fill in the blank. \u2026\u2026\u2026\u2026\u2026\u2026.. samples voltage and current with a fixed sample rate at the installed location.",
+      "options": {
+        "a": "PEVS",
+        "b": "DAUS",
+        "c": "PMUS",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "Phasor Measurement Units (PMUs) sample voltage and current at high, fixed rates using synchronized GPS timestamps for real-time monitoring[cite: 2389]."
+    },
+    {
+      "question_number": 5,
+      "question": "Which of the following statements are true about MDMSs?\nStatement I: Decide the price per unit energy to be paid by the customers\nStatement II: Handled by the energy service providers\nStatement III: Aggregate the energy consumption or energy request of certain geographical area",
+      "options": {
+        "a": "Statements I and II",
+        "b": "Statements I and III",
+        "c": "Statements II and III",
+        "d": "Statements I, II and III"
+      },
+      "correct_answer": "a",
+      "explanation": "A Meter Data Management System (MDMS) is handled by service providers and used to decide pricing; geographical aggregation is handled by other systems like DAUS[cite: 2392, 2393, 2396]."
+    },
+    {
+      "question_number": 6,
+      "question": "Which of the following aggregate the energy consumption or energy request of a certain geographical area?",
+      "options": {
+        "a": "DAUS",
+        "b": "Meter Data Management System",
+        "c": "Buffer",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "DAUS (Data Aggregation Unit System) collects and aggregates energy consumption data from multiple meters within a specific geographical area[cite: 2396]."
+    },
+    {
+      "question_number": 7,
+      "question": "Which of the following statements are true about Dynamic System Attacks?\nStatement I: Replay attacks compromises sensors and monitors their outputs.\nStatement II: D-DIA can lead to a system collapse.\nStatement III: Covert attack is a closed loop version of replay attacks.",
+      "options": {
+        "a": "Statements I and II",
+        "b": "Statements I and III",
+        "c": "Statements II and III",
+        "d": "Statement I, II and III"
+      },
+      "correct_answer": "d",
+      "explanation": "Replay attacks compromise sensor output integrity, D-DIA can lead to system collapse, and covert attacks are closed-loop versions of replay attacks[cite: 2400, 2401, 2402]."
+    },
+    {
+      "question_number": 8,
+      "question": "Fill in the blank. \u2026\u2026\u2026\u2026\u2026\u2026.. is performed by compromising the availability of the grid component.",
+      "options": {
+        "a": "Gateway",
+        "b": "Data injection attacks",
+        "c": "AMH",
+        "d": "Denial of service"
+      },
+      "correct_answer": "d",
+      "explanation": "A Denial of Service (DoS) attack compromises the availability of a grid component by overwhelming it with traffic[cite: 2404]."
+    },
+    {
+      "question_number": 9,
+      "question": "Fill in the blank. \u2026\u2026\u2026\u2026\u2026\u2026 is a primary challenge in IIoT.",
+      "options": {
+        "a": "Worker health and safety",
+        "b": "Optimised operations",
+        "c": "Regulatory compliance",
+        "d": "Integrate existing infrastructure into new IIoT infrastructure"
+      },
+      "correct_answer": "d",
+      "explanation": "Integrating legacy systems and existing infrastructure with new IIoT technologies is a primary challenge due to compatibility and protocol issues[cite: 2407]."
+    },
+    {
+      "question_number": 10,
+      "question": "Fill in the blank. \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 is based on a wrap and re-use approach.",
+      "options": {
+        "a": "AoT",
+        "b": "PoT",
+        "c": "Toll",
+        "d": "IIoT"
+      },
+      "correct_answer": "d",
+      "explanation": "Industrial IoT (IIoT) often uses a 'wrap and reuse' approach where existing machinery is upgraded with sensors rather than being fully replaced[cite: 2409]."
+    },
+    {
+      "question_number": 11,
+      "question": "Mechanized production is a part of the 4th Industrial Revolution.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Mechanized production was the hallmark of the First Industrial Revolution; the Fourth is characterized by cyber-physical systems and AI[cite: 2411, 2412]."
+    },
+    {
+      "question_number": 12,
+      "question": "Which of the following happened in the 3rd Revolution?",
+      "options": {
+        "a": "Mass production",
+        "b": "IIoT",
+        "c": "Mechanized production",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "The Third Revolution focused on automation through electronics; mass production was the Second, and mechanization was the First[cite: 2415, 2417]."
+    },
+    {
+      "question_number": 13,
+      "question": "Which of the following is not a vulnerability of Smart Grid?",
+      "options": {
+        "a": "Integrity",
+        "b": "Physical threats",
+        "c": "Dynamic system attacks",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Integrity, physical threats, and dynamic system attacks are all recognized vulnerabilities in Smart Grids[cite: 2419]."
+    },
+    {
+      "question_number": 14,
+      "question": "Big data is characterized by 7 Vs..",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Modern big data is characterized by 7 Vs: Volume, Velocity, Variety, Veracity, Value, Variability, and Visualization[cite: 2421]."
+    },
+    {
+      "question_number": 15,
+      "question": "What is the Flow of data?",
+      "options": {
+        "a": "Acquisition > Generation > Storage > Analysis",
+        "b": "Generation > Storage > Analysis > Acquisition",
+        "c": "Generation > Acquisition > Storage > Analysis",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "The standard data flow starts with generation, followed by acquisition/collection, storage, and finally analysis[cite: 2423, 2424]."
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 3,
+  "assignment": 3,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Which of the following are the features of an ideal sensor?",
+      "options": {
+        "a": "It is only sensitive to the measured quantity.",
+        "b": "It is insensitive to any other quantity likely to be encountered in its application.",
+        "c": "It does not influence the measured quantity.",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "An ideal sensor should possess high selectivity (only measuring the target quantity), high immunity to environmental interference, and should not alter the state of the phenomenon being measured."
+    },
+    {
+      "question_number": 2,
+      "question": "The time required by a sensor to reach its final settled value is called",
+      "options": {
+        "a": "Settling time",
+        "b": "Response time",
+        "c": "Rise time",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "Settling time is the specific duration needed for a sensor's output to stabilize within a specified error band of its final value after a change in the input."
+    },
+    {
+      "question_number": 3,
+      "question": "State whether the following statement is True or False. Statement: A transducer is a device that converts one form of energy into another.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "By definition, a transducer is a physical device used to convert energy from one form (such as heat, light, or pressure) into another (usually an electrical signal)."
+    },
+    {
+      "question_number": 4,
+      "question": "The sensors which are used to measure the physical property of a system without any physical contact are called",
+      "options": {
+        "a": "Contact sensors",
+        "b": "Non-contact sensors",
+        "c": "Active sensors",
+        "d": "Passive sensors"
+      },
+      "correct_answer": "b",
+      "explanation": "Non-contact sensors, such as ultrasonic or infrared sensors, detect or measure physical properties from a distance without needing to physically touch the object being measured."
+    },
+    {
+      "question_number": 5,
+      "question": "Which of the following is/are not the types of actuators?",
+      "options": {
+        "a": "Electrical",
+        "b": "Mechanical",
+        "c": "Hydraulic",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Electrical, mechanical, and hydraulic are all standard categories of actuators used to provide motion or control in various systems."
+    },
+    {
+      "question_number": 6,
+      "question": "State whether the following statement is True or False. Statement: An actuator is a component of a machine that is responsible for moving and controlling a mechanism or system.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Actuators act as the 'muscles' of a system, receiving a control signal and converting it into physical action or movement."
+    },
+    {
+      "question_number": 7,
+      "question": "Which of the following can be used as a communication technology in loT?",
+      "options": {
+        "a": "Bluetooth",
+        "b": "Zigbee",
+        "c": "Wi-Fi",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Bluetooth, Zigbee, and Wi-Fi are all common wireless communication protocols used to connect IoT devices over different ranges and power requirements."
+    },
+    {
+      "question_number": 8,
+      "question": "The full form of MQTT is",
+      "options": {
+        "a": "Message Queuing Telemetry Transport",
+        "b": "Message Queue Telemedicine Transport",
+        "c": "Message Queue Telephony Transmission",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "MQTT stands for Message Queuing Telemetry Transport, a lightweight publish-subscribe network protocol."
+    },
+    {
+      "question_number": 9,
+      "question": "Which of the following is NOT a characteristic of MQTT?",
+      "options": {
+        "a": "Lightweight",
+        "b": "Publish-subscribe model",
+        "c": "High bandwidth requirement",
+        "d": "Designed for low-power devices"
+      },
+      "correct_answer": "c",
+      "explanation": "MQTT is designed to be lightweight and efficient, specifically for low-power devices and low-bandwidth, unreliable networks; therefore, high bandwidth is not a characteristic."
+    },
+    {
+      "question_number": 10,
+      "question": "The communication between the MQTT client and the broker happens using",
+      "options": {
+        "a": "Topics",
+        "b": "IP addresses",
+        "c": "MAC addresses",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "In MQTT, the broker filters messages based on 'Topics' to ensure that subscribers only receive the messages they are interested in."
+    },
+    {
+      "question_number": 11,
+      "question": "State whether the following statement is True or False. Statement: CoAP (Constrained Application Protocol) is a specialized web transfer protocol for use with constrained nodes and constrained networks.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "CoAP is specifically designed to provide low-overhead communication for IoT devices with limited processing power and battery life."
+    },
+    {
+      "question_number": 12,
+      "question": "Which of the following protocols is used for real-time data transfer in IoT?",
+      "options": {
+        "a": "HTTP",
+        "b": "XMPP",
+        "c": "FTP",
+        "d": "SMTP"
+      },
+      "correct_answer": "b",
+      "explanation": "XMPP (Extensible Messaging and Presence Protocol) is often used for real-time communication and near real-time data exchange in IoT applications."
+    },
+    {
+      "question_number": 13,
+      "question": "The layer in the loT architecture that is responsible for data processing and storage is",
+      "options": {
+        "a": "Perception layer",
+        "b": "Network layer",
+        "c": "Middleware/Processing layer",
+        "d": "Application layer"
+      },
+      "correct_answer": "c",
+      "explanation": "The middleware or processing layer manages the analysis, storage, and processing of the vast amounts of data collected from the perception layer."
+    },
+    {
+      "question_number": 14,
+      "question": "State whether the following statement is True or False. Statement: SDN (Software Defined Networking) can be used to manage the network traffic in IoT systems.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "SDN provides a centralized and programmable way to manage network traffic, which is highly beneficial for handling the complex data flows in IoT."
+    },
+    {
+      "question_number": 15,
+      "question": "In an SDN flow table, if a packet matches multiple entries, the entry with the ____ priority is used.",
+      "options": {
+        "a": "Lowest",
+        "b": "Highest",
+        "c": "First",
+        "d": "Last"
+      },
+      "correct_answer": "b",
+      "explanation": "SDN flow tables utilize priority levels to resolve conflicts; if multiple rules match a packet, the rule with the highest numerical priority is executed."
+    }
+  ]
+}

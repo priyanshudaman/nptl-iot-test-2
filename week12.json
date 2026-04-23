@@ -1,0 +1,181 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 12,
+  "assignment": 12,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "The two types of data analysis are",
+      "options": {
+        "a": "Qualitative and Quantitative",
+        "b": "Repetitive and Quantitative",
+        "c": "Repetitive and Qualitative",
+        "d": "All of these"
+      },
+      "correct_answer": "a",
+      "explanation": "Data analysis is categorized into qualitative, which involves non-numerical data like descriptions, and quantitative, which deals with numerical statistics[cite: 2426, 2427]."
+    },
+    {
+      "question_number": 2,
+      "question": "Fill in the blank. To perform an ANOVA, we must have a ….. response variable and at least one…. factor.",
+      "options": {
+        "a": "Discrete, categorical",
+        "b": "Continuous, quantitative",
+        "c": "Discrete, quantitative",
+        "d": "Continuous, categorical"
+      },
+      "correct_answer": "d",
+      "explanation": "ANOVA (Analysis of Variance) requires a continuous response variable and at least one categorical factor to compare differences between groups[cite: 2429, 2430, 2431]."
+    },
+    {
+      "question_number": 3,
+      "question": "Select the statement(s) that denote the type of ANOVA. Statement I: One way analysis Statement II: Two way analysis Statement III: K-way analysis",
+      "options": {
+        "a": "Statement I",
+        "b": "Statement II",
+        "c": "Statements I, II, and III",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "ANOVA is classified by the number of factors: One-way, Two-way, or K-way analysis for multiple factors[cite: 2432, 2434]."
+    },
+    {
+      "question_number": 4,
+      "question": "What is the type of the data dispersion?",
+      "options": {
+        "a": "Range",
+        "b": "Average absolute deviation",
+        "c": "Variance",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Data dispersion, which describes how values are spread, includes metrics like range, average absolute deviation, and variance[cite: 2436, 2437, 2438]."
+    },
+    {
+      "question_number": 5,
+      "question": "The two most relevant sensors directly used in agricultures are ………..",
+      "options": {
+        "a": "Soil moisture and proximity sensor",
+        "b": "Soil moisture and water level sensor",
+        "c": "ECG sensor and water level sensor",
+        "d": "All of these"
+      },
+      "correct_answer": "b",
+      "explanation": "Soil moisture and water level sensors are critical in agriculture for monitoring soil hydration and water availability for irrigation[cite: 2439, 2441]."
+    },
+    {
+      "question_number": 6,
+      "question": "The mathematical equation that is formulated in the form of relationships between variables is known as………",
+      "options": {
+        "a": "Logical model",
+        "b": "Relational model",
+        "c": "Data dispersion",
+        "d": "Statistical model"
+      },
+      "correct_answer": "d",
+      "explanation": "A statistical model utilizes mathematical equations to represent and analyze the relationships between different variables[cite: 2443, 2444]."
+    },
+    {
+      "question_number": 7,
+      "question": "What are the two types of statistical models?",
+      "options": {
+        "a": "Qualitative and quantitative",
+        "b": "Complete and incomplete",
+        "c": "Regression and dispersion",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "Statistical models are classified as complete if they describe all population parameters or incomplete if information is partial[cite: 2446, 2448]."
+    },
+    {
+      "question_number": 8,
+      "question": "Select the correct order of the component layers present in the IoT healthcare.",
+      "options": {
+        "a": "Sensing layer, cloud platform layer, aggregated layer, processing layer",
+        "b": "Sensing layer, aggregated layer, processing layer, cloud platform layer",
+        "c": "Aggregated layer, sensing layer, processing layer, cloud platform layer",
+        "d": "Sensing layer, processing layer, aggregated layer, cloud platform layer"
+      },
+      "correct_answer": "b",
+      "explanation": "IoT healthcare follows a flow from the sensing layer (data collection) to the aggregated layer, then the processing layer, and finally the cloud platform layer[cite: 2450, 2451, 2453]."
+    },
+    {
+      "question_number": 9,
+      "question": "Wireless IoT driven solutions for remote healthcare facility provisioning brings healthcare to patients than bringing patients to healthcare.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Wireless IoT allows remote monitoring, effectively delivering medical services to the patient's location rather than requiring physical travel[cite: 2454, 2455, 2456]."
+    },
+    {
+      "question_number": 10,
+      "question": "Which of the following handheld devices are used for activity monitoring?",
+      "options": {
+        "a": "EEG and GPS",
+        "b": "Accelerometer and EEG",
+        "c": "Accelerometer and GPS",
+        "d": "All of these"
+      },
+      "correct_answer": "c",
+      "explanation": "Handheld monitoring devices commonly use accelerometers to track movement and GPS to track location and distance[cite: 2457, 2458, 2459]."
+    },
+    {
+      "question_number": 11,
+      "question": "Which of the following are components of IoT?",
+      "options": {
+        "a": "Sensing layer",
+        "b": "Aggregated layer",
+        "c": "Processing layer",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "IoT functionality relies on the combined sensing, aggregated, and processing layers[cite: 2460, 2462, 2463]."
+    },
+    {
+      "question_number": 12,
+      "question": "By performing continuous monitoring of a person's activity, it is not possible to observe his/her behavior or to identify any repetitive pattern in his/her day-to-day activity.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Continuous monitoring specifically enables the tracking of behavioral patterns and the identification of repetitive daily routines[cite: 2464, 2465]."
+    },
+    {
+      "question_number": 13,
+      "question": "Deep learning based data analysis cannot be performed on videos",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Deep learning techniques, such as CNNs and RNNs, are effectively used to process video frames and identify patterns[cite: 2467, 2468, 2469]."
+    },
+    {
+      "question_number": 14,
+      "question": "Which of the following are the inbuilt sensors that are present in high end smartphones?",
+      "options": {
+        "a": "ECG and EEG",
+        "b": "Accelerometer, proximity sensor, and EEG",
+        "c": "Accelerometer, Compass, and Gyroscope",
+        "d": "Pressure sensor and NPK sensor"
+      },
+      "correct_answer": "c",
+      "explanation": "High-end smartphones are typically equipped with accelerometers, compasses, and gyroscopes for navigation and activity tracking[cite: 2470, 2472, 2473]."
+    },
+    {
+      "question_number": 15,
+      "question": "Fill in the blank. Processing the handheld activity device data with artificial intelligence can be used for",
+      "options": {
+        "a": "Fall detection",
+        "b": "Heart rate detection",
+        "c": "Vehicle detection",
+        "d": "All of these"
+      },
+      "correct_answer": "a",
+      "explanation": "AI analysis of motion data from handheld devices is used for critical applications like fall detection for emergency alerts[cite: 2474, 2475, 2476]."
+    }
+  ]
+}

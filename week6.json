@@ -1,0 +1,179 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 6,
+  "assignment": 6,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Python programming language can be easily interfaced with different loT hardware?",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Python supports interfacing with a wide range of hardware platforms and possesses extensive libraries that simplify interaction with various IoT hardware such as sensors and microcontrollers[cite: 1165, 1166]."
+    },
+    {
+      "question_number": 2,
+      "question": "Consider the following Python instruction: aa, bb, cc = 34, [12,23,34], 56.89. Is the above a valid Python instruction?",
+      "options": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "correct_answer": "a",
+      "explanation": "This is valid Python syntax for multiple assignment, allowing different data types to be assigned to multiple variables in a single line[cite: 1186, 1187]."
+    },
+    {
+      "question_number": 3,
+      "question": "Which of the following is a valid conditional construct instruction in Python?",
+      "options": {
+        "a": "else-if",
+        "b": "elif",
+        "c": "ellif",
+        "d": "Ele"
+      },
+      "correct_answer": "b",
+      "explanation": "In Python, 'elif' is the specific keyword used for 'else if' conditional statements to check multiple conditions[cite: 1201, 1215]."
+    },
+    {
+      "question_number": 4,
+      "question": "Consider the following Python code snippet. Assume Python v3. with open(\"hello.txt\", \"w+\") as f: f.write(\"I am learning Python programming\") f.seek(0) lines = f.readline() result = lines[2] print(result)",
+      "options": {
+        "a": "lam'",
+        "b": "'l'",
+        "c": "'a'",
+        "d": "'Am'"
+      },
+      "correct_answer": "c",
+      "explanation": "After writing the string and resetting the pointer to the start, 'lines[2]' accesses the character at index 2 (the third character), which is 'a' in the word 'am'[cite: 1228, 1229]."
+    },
+    {
+      "question_number": 5,
+      "question": "Which of the following is a mode to open a file in Python?",
+      "options": {
+        "a": "Read mode",
+        "b": "Write mode",
+        "c": "Append mode",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "Python supports four basic modes to open a file: 'r' (read), 'w' (write), 'a' (append), and 'r+' (both read and write)[cite: 1242, 1243, 1246, 1247, 1248]."
+    },
+    {
+      "question_number": 6,
+      "question": "What does the following line of code do? GPIO.output(11, True)",
+      "options": {
+        "a": "Sets GPIO 11 as output pin",
+        "b": "Turns on GPIO pin 11",
+        "c": "Neither (a) nor (b)",
+        "d": "Both (a) and (b)"
+      },
+      "correct_answer": "b",
+      "explanation": "The 'GPIO.output(11, True)' command turns on the GPIO pin 11. Setting the pin as an output is handled by a different command, 'GPIO.setup(11, GPIO.OUT)'[cite: 1271, 1272, 1279, 1280]."
+    },
+    {
+      "question_number": 7,
+      "question": "What is the utility of the 'pip' instruction with respect to Python programming?",
+      "options": {
+        "a": "To act as a package installer",
+        "b": "To delete the Python version",
+        "c": "To change from Python v2 to v3",
+        "d": "None of the given"
+      },
+      "correct_answer": "a",
+      "explanation": "PIP is the standard package installer for Python, used to install and manage libraries such as Pillow[cite: 1288, 1289, 1295]."
+    },
+    {
+      "question_number": 8,
+      "question": "Suppose you have used the sock.bind(server_address) while writing programs with sockets in Python. With respect to this, which among the following is a valid initialization of the server_address object?",
+      "options": {
+        "a": "(1223,1223)",
+        "b": "('10.12.56.34',1223)",
+        "c": "('12.56.78.221', '10.12.34.56')",
+        "d": "(1223, '67.34.56.7789')"
+      },
+      "correct_answer": "b",
+      "explanation": "The 'server_address' must be a tuple containing an IP address (as a string) and a port number (as an integer)[cite: 1311, 1313]."
+    },
+    {
+      "question_number": 9,
+      "question": "Where do you store the image file of the Raspberry Pi OS before using it to execute the OS on the Pi?",
+      "options": {
+        "a": "Over the cloud",
+        "b": "Directly on the Pi motherboard",
+        "c": "Inside a memory card attached to the Pi",
+        "d": "OS is installed through wireless means"
+      },
+      "correct_answer": "c",
+      "explanation": "The Raspberry Pi OS (Raspbian) is written onto an SD card using software like Win32 Disk Imager before being inserted into the Pi[cite: 1324, 1332]."
+    },
+    {
+      "question_number": 10,
+      "question": "With which of the following remote access mechanism can you access a Raspberry Pi from your laptop computer?",
+      "options": {
+        "a": "ssp",
+        "b": "ssh",
+        "c": "ssj",
+        "d": "Ssd"
+      },
+      "correct_answer": "b",
+      "explanation": "SSH (Secure Shell) is the network protocol used for secure remote access to the Raspberry Pi command line[cite: 1343, 1348]."
+    },
+    {
+      "question_number": 11,
+      "question": "Fill in the blanks. Raspberry Pi 3 Model B has a GPU support of..",
+      "options": {
+        "a": "400 MHz video core IV",
+        "b": "250 MHz video core IV",
+        "c": "Quad cortex A53@1.2GHz",
+        "d": "ARM 11 @ 1 GHz"
+      },
+      "correct_answer": "a",
+      "explanation": "The Raspberry Pi 3 Model B features a 400 MHz VideoCore IV GPU[cite: 1357, 1361]."
+    },
+    {
+      "question_number": 12,
+      "question": "What is the data type of the variable Is in the following piece of Python code? ls={1:2,3:4,5:6,7:8}",
+      "options": {
+        "a": "dictionary",
+        "b": "list",
+        "c": "tuple",
+        "d": "All of these"
+      },
+      "correct_answer": "a",
+      "explanation": "The use of curly braces with 'key:value' pairs defines a dictionary in Python[cite: 1373, 1375, 1376]."
+    },
+    {
+      "question_number": 13,
+      "question": "Which among the following component is highlighted within the red box in the image?",
+      "options": {
+        "a": "Raspberri Pi",
+        "b": "Raspbian",
+        "c": "Raspberry Pi Camera",
+        "d": "GPIO pins"
+      },
+      "correct_answer": "c",
+      "explanation": "The Raspberry Pi specific camera module connects via a dedicated CSI slot located between the Ethernet and HDMI ports[cite: 1388, 1389, 1393, 1394]."
+    },
+    {
+      "question_number": 14,
+      "question": "Relay is a type of actuator which can be used with Arduino but not with Raspberry Pi.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "A relay interface is possible with Raspberry Pi by connecting its VCC, GND, and input/signal pins to the Pi's GPIO pins[cite: 1403, 1404, 1405, 1406]."
+    },
+    {
+      "question_number": 15,
+      "question": "State whether the following statement is true or false. Statement: Python allows us to only read files. Writing to files is not possible.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Python supports both reading from and writing to files through its built-in 'open()' function[cite: 1417, 1421, 1424]."
+    }
+  ]
+}

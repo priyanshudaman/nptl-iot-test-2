@@ -1,0 +1,179 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 2,
+  "assignment": 2,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "The full form of MQTT is",
+      "options": {
+        "a": "Message Queue Telephone Transmission",
+        "b": "Message Query Telemetry Transport",
+        "c": "Message Queue Telemedicine Transport",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "The correct full form of MQTT is Message Queuing Telemetry Transport, which is not listed among the given options[cite: 246]."
+    },
+    {
+      "question_number": 2,
+      "question": "Which of the following is NOT a method in MQTT?",
+      "options": {
+        "a": "Break",
+        "b": "Stick",
+        "c": "Run",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "MQTT uses methods like CONNECT, PUBLISH, SUBSCRIBE, and DISCONNECT; however, Break, Stick, and Run are not valid MQTT methods[cite: 260]."
+    },
+    {
+      "question_number": 3,
+      "question": "Which of the following is/are component/components of MQTT?",
+      "options": {
+        "a": "Publishers",
+        "b": "Subscribers",
+        "c": "Brokers",
+        "d": "All of these"
+      },
+      "correct_answer": "d",
+      "explanation": "MQTT architecture consists of three essential components: Publishers (sending messages), Subscribers (receiving messages), and Brokers (managing distribution)[cite: 278, 279]."
+    },
+    {
+      "question_number": 4,
+      "question": "State whether the following statement is true or false. Statement: SMQTT is an extension of MQTT which uses lightweight attribute based encryption. It has three main stages.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "The statement is incorrect because the described algorithm for SMQTT generally consists of four main stages (setup, encryption, publish, and decryption), not three[cite: 287, 291]."
+    },
+    {
+      "question_number": 5,
+      "question": "The OSI model has ____ layers.",
+      "options": {
+        "a": "6",
+        "b": "8",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "The OSI model consists of 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application[cite: 299]."
+    },
+    {
+      "question_number": 6,
+      "question": "The two sub-layers of CoAP are -",
+      "options": {
+        "a": "Messaging and Holding",
+        "b": "Messaging and Backoff",
+        "c": "Messaging and Teardown",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "The two main sub-layers of the CoAP architecture are Messaging and Request/Response; none of the provided options match these[cite: 307, 319, 320]."
+    },
+    {
+      "question_number": 7,
+      "question": "What is the full form of AMQP in the context of loT protocol?",
+      "options": {
+        "a": "Another Message Queuing Protocol",
+        "b": "Anchored Message Queuing Protocol",
+        "c": "Adjoint Message Queuing Protocol",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "The correct full form of AMQP is Advanced Message Queuing Protocol[cite: 330, 337]."
+    },
+    {
+      "question_number": 8,
+      "question": "XMPP uses the ____ architecture.",
+      "options": {
+        "a": "Publish-subscribe",
+        "b": "Client-server",
+        "c": "Both (a) and (b)",
+        "d": "Neither (a) nor (b)"
+      },
+      "correct_answer": "b",
+      "explanation": "XMPP primarily utilizes a client-server architecture where clients communicate through servers to exchange messages and presence information[cite: 345, 350]."
+    },
+    {
+      "question_number": 9,
+      "question": "How many message delivery guarantee modes are there in the AMQP protocol?",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "AMQP provides three message delivery guarantee modes: At-most-once, At-least-once, and Exactly-once[cite: 366]."
+    },
+    {
+      "question_number": 10,
+      "question": "Which of the following is/are NOT an AMQP frame type?",
+      "options": {
+        "a": "Open",
+        "b": "Close",
+        "c": "Random",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "Valid AMQP frame types include Open, Close, Begin, End, and Transfer, but 'Random' is not a defined frame type[cite: 389]."
+    },
+    {
+      "question_number": 11,
+      "question": "State whether the following statement is true or false. Statement: IEEE 802.15.5 was developed for low data rate monitoring and control applications and extended life low power communication uses.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "The description provided fits the IEEE 802.15.4 standard, whereas IEEE 802.15.5 is specifically for wireless mesh networks[cite: 399, 400, 401]."
+    },
+    {
+      "question_number": 12,
+      "question": "Which of the following is/are exchange types in AMQP?",
+      "options": {
+        "a": "Direct",
+        "b": "Indirect",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "AMQP defines exchange types including Direct, Fan-out, Topic, and Header; 'Indirect' is not a valid exchange type[cite: 415, 416]."
+    },
+    {
+      "question_number": 13,
+      "question": "State whether the following statement is True or False. Statement: The IEEE 802.15.4 operates in ISM band.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "IEEE 802.15.4 is specifically designed to operate in the unlicensed ISM (Industrial, Scientific, and Medical) radio bands[cite: 423, 425]."
+    },
+    {
+      "question_number": 14,
+      "question": "The networking topologies supported in the IEEE 802.15.4 are -",
+      "options": {
+        "a": "Only Star",
+        "b": "Star and Mesh",
+        "c": "Only Mesh",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "The networking topologies defined and supported under the IEEE 802.15.4 standard are Star and Mesh[cite: 437, 439]."
+    },
+    {
+      "question_number": 15,
+      "question": "State whether the following statement is True or False. Statement: Generation of Route Requests (RREQs) by a LOADng Router for discovering a route to a destination is a valid operation of the LOADng routing protocol.",
+      "options": {
+        "a": "False",
+        "b": "True"
+      },
+      "correct_answer": "b",
+      "explanation": "A core function of the LOADng reactive protocol is for a router to generate a Route Request (RREQ) when it needs to discover a route to a destination[cite: 449, 454]."
+    }
+  ]
+}

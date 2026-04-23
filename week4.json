@@ -1,0 +1,175 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 4,
+  "assignment": 4,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "If transmission range > 2* sensing range,",
+      "options": {
+        "a": "Coverage implies connectivity",
+        "b": "Coverage implies greater coverage",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "The condition where transmission range is greater than twice the sensing range ensures that connectivity implies coverage[cite: 652]. This means if all nodes are connected, the area is also covered[cite: 653]."
+    },
+    {
+      "question_number": 2,
+      "question": "What is the full form of AUV in the context of mobile wireless sensor networks?",
+      "options": {
+        "a": "Aerial and Underwater Vehicle",
+        "b": "Ambient and Underprivileged Vehicle",
+        "c": "Astronomical Underwater Vehicle",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "In mobile wireless sensor networks, AUV stands for Autonomous Underwater Vehicle[cite: 667]. It is a self-propelled, unmanned vehicle used for underwater data collection[cite: 670]."
+    },
+    {
+      "question_number": 3,
+      "question": "State whether the following statement is true or false. Statement: Agricultural intrusion detection uses NFC sensors.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Agricultural intrusion detection typically uses sensors like Passive Infrared (PIR) and Ultrasonic sensors[cite: 678, 679, 680]. NFC is for extremely short-range communication and is not practical for monitoring large agricultural fields[cite: 684]."
+    },
+    {
+      "question_number": 4,
+      "question": "The objective of coverage in WSN is to use a.. ____ number of sensors and ____ the network lifetime.",
+      "options": {
+        "a": "minimum, minimize",
+        "b": "maximum, minimize",
+        "c": "maximum, maximize",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "The primary objective is to use a minimum number of sensors to maximize the network lifetime[cite: 705, 706]. Since the 'minimum, maximize' pairing is not provided in options a, b, or c, 'None of these' is correct."
+    },
+    {
+      "question_number": 5,
+      "question": "WSN in agriculture uses what for processing?",
+      "options": {
+        "a": "Microprocessor",
+        "b": "Microcontroller",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "A microcontroller is the ideal choice for WSN nodes as it integrates a processor, memory, and I/O peripherals on a single chip, making it power-efficient for embedded applications like agricultural WSNs[cite: 726]."
+    },
+    {
+      "question_number": 6,
+      "question": "Which of the following is/are options for communication among nanodevices?",
+      "options": {
+        "a": "Electromagnetic",
+        "b": "Molecular",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "Communication options among nanodevices include both Electromagnetic and Molecular methods[cite: 735, 737, 738, 744]."
+    },
+    {
+      "question_number": 7,
+      "question": "State whether the following statement is true or false. Statement: Voluntary Sensing allows distributed sensing carried by humans and the goal is not just to collect data but to allow the common people to assess and share the knowledge.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "The described concept is actually known as Participatory Sensing, not 'Voluntary Sensing'[cite: 759]. While the goal of sharing knowledge is correct, the terminology used in the statement is inaccurate[cite: 760]."
+    },
+    {
+      "question_number": 8,
+      "question": "State whether the following statement is true or false. Statement: UAV networks use a ring topology.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "UAV networks typically use Star or Multi-star configurations[cite: 764, 767, 768]. A ring topology is impractical for dynamic, mobile UAVs due to its rigid structure and single point of failure[cite: 778]."
+    },
+    {
+      "question_number": 9,
+      "question": "In multi-UAV networks, the scalability is",
+      "options": {
+        "a": "Low",
+        "b": "Very Low",
+        "c": "Poor",
+        "d": "None of these"
+      },
+      "correct_answer": "d",
+      "explanation": "In multi-UAV networks, scalability is generally considered high[cite: 791, 816, 824]. Since 'High' is not listed in options a, b, or c, 'None of these' is the correct selection."
+    },
+    {
+      "question_number": 10,
+      "question": "Single UAV system uses ____ antenna.",
+      "options": {
+        "a": "Uni-directional",
+        "b": "Omni-directional",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "A single UAV system typically uses an omni-directional antenna to maintain communication with the ground control station regardless of its orientation[cite: 824, 825]."
+    },
+    {
+      "question_number": 11,
+      "question": "Which of the following is/are constraint/constraints of UAV network?",
+      "options": {
+        "a": "Infrequent link breakages",
+        "b": "Malfunction",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correct_answer": "b",
+      "explanation": "UAV network constraints include frequent link breakages (not infrequent) and being prone to malfunction[cite: 831, 832, 833, 840]."
+    },
+    {
+      "question_number": 12,
+      "question": "Low-end sensor nodes are",
+      "options": {
+        "a": "Whose deployment has high density in order to increase network lifetime and survivability.",
+        "b": "Who perform basic functions such as data aggregation, auto configuration, and power saving.",
+        "c": "Both (a) and (b)",
+        "d": "None of these"
+      },
+      "correct_answer": "c",
+      "explanation": "Low-end sensor nodes are deployed in high density for survivability [cite: 851, 856] and perform basic tasks like data aggregation and power saving[cite: 854, 857]."
+    },
+    {
+      "question_number": 13,
+      "question": "State whether the following statement is true or false. Statement: FANETs are flying ad hoc networks.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "FANET stands for Flying Ad Hoc Network, which refers to network formation using UAVs[cite: 867, 868, 877]."
+    },
+    {
+      "question_number": 14,
+      "question": "State whether the following statement is true or false. Statement: SCADA is designed for isolated systems using proprietary solutions, whereas M2M is designed for cross-platform integration.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "SCADA systems often operate as isolated proprietary networks, while M2M is specifically designed for cross-platform integration over existing networks using standard protocols[cite: 886, 888, 889]."
+    },
+    {
+      "question_number": 15,
+      "question": "State whether the following statement is true or false. Statement: Low-end sensor nodes are static, energy-hungry, and complex.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "Low-end sensor nodes are designed to be energy-efficient and simple, not energy-hungry and complex[cite: 896, 901]."
+    }
+  ]
+}

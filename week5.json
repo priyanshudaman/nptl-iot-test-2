@@ -1,0 +1,181 @@
+{
+  "course": "Introduction to IoT (JULY-2025)",
+  "week": 5,
+  "assignment": 5,
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Why interoperability in IoT is an issue?",
+      "options": {
+        "a": "loT nodes are heterogeneous hence they communicate in different protocols",
+        "b": "IoT nodes are homogeneous and communicate with the same protocol",
+        "c": "loT nodes do not communicate.",
+        "d": "IoT nodes are small."
+      },
+      "correct_answer": "a",
+      "explanation": "Interoperability is a challenge because IoT systems combine diverse devices and platforms, each using different communication protocols[cite: 911]. This heterogeneity makes seamless data exchange difficult without standardized interfaces[cite: 912]."
+    },
+    {
+      "question_number": 2,
+      "question": "UNSPSC provides a solution for which of the following?",
+      "options": {
+        "a": "Manufacturing",
+        "b": "Supply Chain",
+        "c": "Classification",
+        "d": "Communication"
+      },
+      "correct_answer": "c",
+      "explanation": "UNSPSC (United Nations Standard Products and Services Code) is an open, global standard for the efficient and flexible classification of products and services[cite: 923, 925]."
+    },
+    {
+      "question_number": 3,
+      "question": "Arduino development boards are equipped with micro-controller processors which are ____ with respect to their hardware configurations.",
+      "options": {
+        "a": "closed source",
+        "b": "open source",
+        "c": "forward source",
+        "d": "up sourced"
+      },
+      "correct_answer": "b",
+      "explanation": "Arduino is an open-source based electronic programmable board[cite: 937]. Its hardware configurations and software (IDE) are publicly available for modification and distribution[cite: 942]."
+    },
+    {
+      "question_number": 4,
+      "question": "Translation of inter-device communication forms an important part in solving device interoperability.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "Translation between different communication protocols is essential for enabling diverse IoT devices to work together[cite: 961]. Tools like UMB Adaptors translate local middleware messages into global metadata to solve this[cite: 953]."
+    },
+    {
+      "question_number": 5,
+      "question": "With respect to the different wireless communication protocols such as Zigbee, Bluetooth, GPRS, 6LoWPAN and WiFi, which of the following terms can be associated with?",
+      "options": {
+        "a": "Homogeneity",
+        "b": "Heterogeneity",
+        "c": "Self Service",
+        "d": "All of the given"
+      },
+      "correct_answer": "b",
+      "explanation": "Heterogeneity in IoT refers to the variety of different wireless communication protocols (ZigBee, Bluetooth, GPRS, etc.), hardware platforms, and programming languages[cite: 970, 971, 975]."
+    },
+    {
+      "question_number": 6,
+      "question": "Which among the following are valid Arduino datatypes?",
+      "options": {
+        "a": "byte",
+        "b": "char",
+        "c": "Boolean",
+        "d": "All of the given"
+      },
+      "correct_answer": "d",
+      "explanation": "Arduino supports various data types including void, long, int, char, boolean, unsigned char, and byte[cite: 985, 987, 991, 993]."
+    },
+    {
+      "question_number": 7,
+      "question": "What is the purpose of the delay() function in Arduino programming?",
+      "options": {
+        "a": "To speed up the execution",
+        "b": "To terminate the program",
+        "c": "To reset all parameters",
+        "d": "To make the program go to sleep for a certain duration."
+      },
+      "correct_answer": "d",
+      "explanation": "The delay() function is a time manipulation function used to provide a pause of a specified duration in milliseconds[cite: 1018, 1019]. It halts operations temporarily for timing control[cite: 1020]."
+    },
+    {
+      "question_number": 8,
+      "question": "Consider the following Arduino code snippet: String str = \"Hello World\"; String ptr = str.ToUpperCase(); What will be the value of String ptr?",
+      "options": {
+        "a": "Hello World",
+        "b": "helloworld",
+        "c": "HELLOWORLD",
+        "d": "WORLDHELLO"
+      },
+      "correct_answer": "c",
+      "explanation": "The ToUpperCase() function changes all the characters of a string to upper case[cite: 1035]. For \"Hello World\", this results in \"HELLOWORLD\"[cite: 1039]."
+    },
+    {
+      "question_number": 9,
+      "question": "What does the following code snippet do in interfacing a servo motor with the Arduino MEGA board? int servoPin = 12;",
+      "options": {
+        "a": "Declares pin for connecting servo motor",
+        "b": "Declares pin for providing power to MEGA board",
+        "c": "Declares pin for Ground supply for servo motor",
+        "d": "None of these"
+      },
+      "correct_answer": "a",
+      "explanation": "This line of code declares an integer variable that represents the digital pin number on the Arduino board where the servo motor control wire is connected[cite: 1062]."
+    },
+    {
+      "question_number": 10,
+      "question": "State True or False. Statement: \"The \"Verify\" option in the Arduino IDE checks the code for compilation errors.\"",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "a",
+      "explanation": "The \"Verify\" function in the Arduino IDE specifically checks the code for compilation errors[cite: 1068]. It compiles the code to find syntax or library issues without uploading it[cite: 1077]."
+    },
+    {
+      "question_number": 11,
+      "question": "The tool used to select a particular COM port for connecting Arduino to a serial connector is called a sketch.",
+      "options": {
+        "a": "True",
+        "b": "False"
+      },
+      "correct_answer": "b",
+      "explanation": "A program coded in the Arduino IDE is called a sketch[cite: 1083]. The COM port is selected through the Tools menu, not the sketch itself[cite: 1087]."
+    },
+    {
+      "question_number": 12,
+      "question": "In general, with respect to any sensor that can be connected to an Arduino board, which of the following is correct?",
+      "options": {
+        "a": "The sensor has infinite number of connecting pins",
+        "b": "The sensor will have at least 3 pins (1+Vcc, 1 GND and 1 Data pin)",
+        "c": "The sensor need not connect to the Arduino board.",
+        "d": "The sensor will always have exactly 5 pins."
+      },
+      "correct_answer": "b",
+      "explanation": "Most basic sensors require at least three pins: power supply (+Vcc), ground (GND), and a data pin[cite: 1104]. For example, a DHT sensor uses pins for power, data, and ground[cite: 1099, 1100, 1102]."
+    },
+    {
+      "question_number": 13,
+      "question": "You connect the +Vcc PIN of a sensor with which of the corresponding PIN of Arduino board.",
+      "options": {
+        "a": "3V",
+        "b": "GND",
+        "c": "PIN A5",
+        "d": "PIN CTX"
+      },
+      "correct_answer": "a",
+      "explanation": "The +Vcc pin of a sensor is connected to a power supply pin on the board, such as the 3.3V (3V) pin[cite: 1113, 1114, 1120]."
+    },
+    {
+      "question_number": 14,
+      "question": "Servo is a type of ____.",
+      "options": {
+        "a": "Sensor",
+        "b": "Actuator",
+        "c": "Modifier",
+        "d": "Pacifier"
+      },
+      "correct_answer": "b",
+      "explanation": "A servo motor is listed as a type of motor actuator[cite: 1127, 1128]. It converts electrical signals into physical movement[cite: 1136]."
+    },
+    {
+      "question_number": 15,
+      "question": "While uploading a sketch to an Arduino board, which of the following should be checked?",
+      "options": {
+        "a": "Board",
+        "b": "Serial Port",
+        "c": "Both Board and Serial Port",
+        "d": "Neither Board nor Serial Port."
+      },
+      "correct_answer": "c",
+      "explanation": "Before uploading, the user must set both the board type and the correct serial port through the Tools menu[cite: 1148, 1149, 1150, 1151]."
+    }
+  ]
+}
