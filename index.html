@@ -108,7 +108,7 @@
 <div class="container">
     <div id="start-screen" class="card">
         <h1>Introduction to IoT Mock Test</h1>
-        <p>This test will pull 70 random questions from Weeks 1-12. If fewer than 70 questions are available, it will use all available questions.</p>
+        <p>This test will pull 75 random questions from Weeks 1-12. If fewer than 75 questions are available, it will use all available questions.</p>
         <button onclick="startTest()">Start Test</button>
     </div>
 
@@ -178,7 +178,7 @@
             return;
         }
 
-        // Shuffle and select max 70 questions
+        // Shuffle and select max 75 questions
         testQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 75);
         
         document.getElementById('start-screen').style.display = 'none';
