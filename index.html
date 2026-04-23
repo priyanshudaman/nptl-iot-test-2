@@ -31,7 +31,6 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             margin-bottom: 20px;
         }
-        /* Layout for the test screen */
         #test-screen {
             display: grid;
             grid-template-columns: 3fr 1fr;
@@ -54,7 +53,6 @@
         }
         input[type="radio"] { margin-right: 10px; }
         
-        /* Navigation Grid */
         .nav-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
@@ -82,12 +80,14 @@
             margin-top: 10px;
         }
         button:hover { background: #1d4ed8; }
+        button:disabled { background: #9ca3af; cursor: not-allowed; }
         
-        /* Review Screen Styles */
         .review-item {
             border-left: 5px solid gray;
             padding-left: 15px;
             margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
         }
         .review-item.correct { border-left-color: var(--correct); }
         .review-item.wrong { border-left-color: var(--wrong); }
@@ -107,15 +107,15 @@
 
 <div class="container">
     <div id="start-screen" class="card">
-        <h1>Comprehensive 70-Mark Mock Test</h1>
-        <p>This test will randomly pull exactly 70 questions from your loaded JSON files. You can navigate freely. There is no time limit.</p>
+        <h1>Introduction to IoT Mock Test</h1>
+        <p>This test will pull 70 random questions from Weeks 1-12. If fewer than 70 questions are available, it will use all available questions.</p>
         <button onclick="startTest()">Start Test</button>
     </div>
 
     <div id="test-screen" style="display: none;">
-        <div class="card" id="question-area">
+        <div class="card">
             <h2 id="question-number">Question 1</h2>
-            <p id="question-text" style="font-size: 1.1em;"></p>
+            <p id="question-text" style="font-size: 1.1em; font-weight: 500;"></p>
             <div id="options" class="options-container"></div>
             
             <div style="display: flex; justify-content: space-between; margin-top: 30px;">
@@ -140,12 +140,11 @@
 </div>
 
 <script>
-    // Configuration: List your JSON files here
     const jsonFiles = ['week1.json', 'week2.json', 'week3.json', 'week4.json', 'week5.json', 'week6.json', 'week7.json', 'week8.json', 'week9.json', 'week10.json', 'week11.json', 'week12.json'];
     
     let allQuestions = [];
     let testQuestions = [];
-    let userAnswers = {}; // stores selected option text or index
+    let userAnswers = {}; 
     let currentIndex = 0;
 
     async function loadData() {
@@ -155,28 +154,31 @@
                 const response = await fetch(file);
                 if (response.ok) {
                     const data = await response.json();
-                    // Flatten questions from assignments
-                    data.assignments.forEach(assignment => {
-                        allQuestions.push(...assignment.questions);
-                    });
+                    if (data.questions && Array.isArray(data.questions)) {
+                        allQuestions.push(...data.questions);
+                    }
                 }
             } catch (error) {
-                console.warn("Could not load file or file not found:", file);
+                console.warn("Could not load:", file);
             }
         }
     }
 
     async function startTest() {
-        document.getElementById('start-screen').innerHTML = "<p>Loading questions...</p>";
+        const startBtn = document.querySelector('#start-screen button');
+        startBtn.disabled = true;
+        startBtn.innerText = "Loading...";
+
         await loadData();
 
-        if (allQuestions.length < 70) {
-            alert(`Not enough questions! Found ${allQuestions.length}, but need 70.`);
-            location.reload();
+        if (allQuestions.length === 0) {
+            alert("Error: No questions loaded. Ensure JSON files are in the same folder.");
+            startBtn.disabled = false;
+            startBtn.innerText = "Start Test";
             return;
         }
 
-        // Shuffle and pick exactly 70
+        // Shuffle and select max 70 questions
         testQuestions = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 70);
         
         document.getElementById('start-screen').style.display = 'none';
@@ -203,39 +205,37 @@
         currentIndex = index;
         const q = testQuestions[index];
         
-        document.getElementById('question-number').innerText = `Question ${index + 1} of 70`;
-        document.getElementById('question-text').innerText = q.questionText;
+        document.getElementById('question-number').innerText = `Question ${index + 1} of ${testQuestions.length}`;
+        document.getElementById('question-text').innerText = q.question;
         
         const optionsDiv = document.getElementById('options');
         optionsDiv.innerHTML = '';
         
-        q.options.forEach((opt, optIndex) => {
+        // Loop through the options object (a, b, c, d)
+        Object.entries(q.options).forEach(([key, value]) => {
             const label = document.createElement('label');
             const radio = document.createElement('input');
             radio.type = 'radio';
             radio.name = 'option';
-            radio.value = opt;
+            radio.value = key;
             
-            // Re-check if user already answered this
-            if (userAnswers[index] === opt) {
+            if (userAnswers[index] === key) {
                 radio.checked = true;
             }
             
             radio.onchange = () => {
-                userAnswers[index] = opt;
+                userAnswers[index] = key;
                 document.getElementById(`nav-btn-${index}`).classList.add('answered');
             };
             
             label.appendChild(radio);
-            label.appendChild(document.createTextNode(opt));
+            label.appendChild(document.createTextNode(`${key}. ${value}`));
             optionsDiv.appendChild(label);
         });
 
-        // Update Nav buttons highlighting
         document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
         document.getElementById(`nav-btn-${index}`).classList.add('active');
 
-        // Toggle Prev/Next buttons
         document.getElementById('prev-btn').disabled = (index === 0);
         document.getElementById('next-btn').disabled = (index === testQuestions.length - 1);
     }
@@ -244,7 +244,7 @@
     function nextQuestion() { if (currentIndex < testQuestions.length - 1) renderQuestion(currentIndex + 1); }
 
     function submitTest() {
-        if (!confirm("Are you sure you want to submit? You can't change your answers after this.")) return;
+        if (!confirm("Are you sure you want to submit?")) return;
         
         document.getElementById('test-screen').style.display = 'none';
         document.getElementById('result-screen').style.display = 'block';
@@ -254,53 +254,31 @@
 
     function generateReview() {
         const container = document.getElementById('review-container');
+        container.innerHTML = '';
         let score = 0;
 
         testQuestions.forEach((q, index) => {
             const userChoice = userAnswers[index];
-            
-            // 1. Smartly extract the letter (a, b, c, or d) from the user's choice
-            let userLetter = null;
-            if (userChoice) {
-                // This regex looks for a letter a-d at the start, ignoring '(' or '.'
-                const match = userChoice.trim().match(/^\(?([a-d])[\)\.]/i);
-                if (match) userLetter = match[1].toLowerCase();
-            }
-            
-            // 2. Grade the answer safely
-            let isCorrect = false;
-            if (userLetter && q.correct_answer) {
-                isCorrect = (userLetter === q.correct_answer.trim().toLowerCase());
-            }
+            const isCorrect = (userChoice === q.correct_answer);
             
             if (isCorrect) score++;
 
-            // 3. Build the UI
             const item = document.createElement('div');
             item.className = `review-item ${isCorrect ? 'correct' : 'wrong'}`;
             
-            // Add a warning if the JSON is missing the correct_answer key
-            let html = `<h3>${index + 1}. ${q.questionText}</h3>`;
-            if (!q.correct_answer) {
-                html += `<p style="color: #d97706; font-size: 0.85em;">⚠️ This question is missing the 'correct_answer' key in its JSON file, so it couldn't be graded.</p>`;
-            }
+            let html = `<h3>${index + 1}. ${q.question}</h3>`;
             
-            q.options.forEach(opt => {
+            Object.entries(q.options).forEach(([key, value]) => {
                 let optClass = "review-option";
                 
-                // Smartly extract the letter for the option being rendered
-                let optLetter = null;
-                const optMatch = opt.trim().match(/^\(?([a-d])[\)\.]/i);
-                if (optMatch) optLetter = optMatch[1].toLowerCase();
-
-                // Highlight correct and wrong answers accurately
-                if (q.correct_answer && optLetter === q.correct_answer.trim().toLowerCase()) {
-                    optClass += " bg-correct"; 
-                } else if (userChoice === opt && !isCorrect) {
-                    optClass += " bg-wrong"; 
+                if (key === q.correct_answer) {
+                    optClass += " bg-correct";
+                } else if (userChoice === key && !isCorrect) {
+                    optClass += " bg-wrong";
                 }
                 
-                html += `<div class="${optClass}">${opt} ${userChoice === opt ? '(Your Answer)' : ''}</div>`;
+                const userTag = (userChoice === key) ? " <strong>(Your Answer)</strong>" : "";
+                html += `<div class="${optClass}">${key}. ${value}${userTag}</div>`;
             });
 
             html += `<div class="explanation"><strong>Explanation:</strong> ${q.explanation || "No explanation provided."}</div>`;
@@ -308,7 +286,7 @@
             container.appendChild(item);
         });
 
-        document.getElementById('score-display').innerText = `You scored ${score} out of 70`;
+        document.getElementById('score-display').innerText = `Final Score: ${score} / ${testQuestions.length}`;
     }
 </script>
 
