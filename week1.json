@@ -1,173 +1,212 @@
-{
-  "course": "Introduction to IoT (JULY-2025)",
-  "week": 1,
-  "assignment": 1,
-  "questions": [
-    {
-      "question_number": 1,
-      "question": "Which of the following is/are not a thing as per IoT?",
-      "options": {
-        "a": "Fan",
-        "b": "Light",
-        "c": "Refrigerator",
-        "d": "None of the these"
-      },
-      "correct_answer": "d",
-      "explanation": "All listed items (fan, light, refrigerator) can be IoT-enabled when connected and controlled via the internet. Hence, none of them are excluded from being considered an IoT 'thing'."
+[
+  {
+    "question_number": 1,
+    "topic": "Understanding the communicative environment - I",
+    "question": "Soft skills are complementary to hard skills.",
+    "options": {
+      "a": "True",
+      "b": "False",
+      "c": "Only in technical jobs",
+      "d": "None of the above"
     },
-    {
-      "question_number": 2,
-      "question": "State true or false. Statement: The things in IoT consist of embedded systems.",
-      "options": {
-        "a": "True",
-        "b": "False"
-      },
-      "correct_answer": "a",
-      "explanation": "IoT involves the unification of technologies such as low-power embedded systems, cloud computing, big-data, machine learning, and networking."
+    "correct_option": "a",
+    "correct_answer": "True",
+    "explanation": "Kindly refer lecture 1."
+  },
+  {
+    "question_number": 2,
+    "topic": "Understanding the communicative environment – I",
+    "question": "Which statement about communication noise is correct?",
+    "options": {
+      "a": "Noise affects only verbal communication.",
+      "b": "Noise can originate from the sender, receiver, channel, or environment.",
+      "c": "Noise always involves sound.",
+      "d": "Noise cannot be minimized."
     },
-    {
-      "question_number": 3,
-      "question": "Which of the following is/are the features of IoT?",
-      "options": {
-        "a": "Intelligence",
-        "b": "Connectivity",
-        "c": "Sensing",
-        "d": "All of these"
-      },
-      "correct_answer": "d",
-      "explanation": "IoT is characterized by its ability to provide intelligence through data analysis, connectivity between devices, and sensing capabilities to interact with the physical world."
+    "correct_option": "b",
+    "correct_answer": "Noise can originate from the sender, receiver, channel, or environment.",
+    "explanation": "Kindly refer lecture 1."
+  },
+  {
+    "question_number": 3,
+    "topic": "Understanding the communicative environment – I",
+    "question": "The use of complex technical language that the audience cannot understand illustrates which communication barrier?",
+    "options": {
+      "a": "Physical barrier",
+      "b": "Psychological barrier",
+      "c": "Semantic barrier",
+      "d": "Cultural barrier"
     },
-    {
-      "question_number": 4,
-      "question": "State true or false. Statement: IoT covers various aspects of life like health, home, and city.",
-      "options": {
-        "a": "True",
-        "b": "False"
-      },
-      "correct_answer": "a",
-      "explanation": "IoT applications span across diverse domains including smart health monitoring, smart homes, and smart city infrastructures."
+    "correct_option": "c",
+    "correct_answer": "Semantic barrier",
+    "explanation": "Kindly refer lecture 1."
+  },
+  {
+    "question_number": 4,
+    "topic": "When to speak and how?",
+    "question": "In a group discussion, interrupting repeatedly usually indicates:",
+    "options": {
+      "a": "Leadership",
+      "b": "Confidence",
+      "c": "Poor etiquette",
+      "d": "Assertiveness"
     },
-    {
-      "question_number": 5,
-      "question": "State true or false. Statement: IoT-based energy management can contribute to reducing carbon footprints.",
-      "options": {
-        "a": "True",
-        "b": "False"
-      },
-      "correct_answer": "a",
-      "explanation": "IoT-based energy management allows for efficient energy use and monitoring, which directly helps in reducing overall carbon footprints."
+    "correct_option": "c",
+    "correct_answer": "Poor etiquette",
+    "explanation": "Kindly refer lecture 4."
+  },
+  {
+    "question_number": 5,
+    "topic": "When to speak and how?",
+    "question": "During a team meeting, Riya says, \"I think we should review the data once more before deciding,\" in a calm, steady, and respectful tone despite others disagreeing. Which option best identifies both her voice tone and personality trait?",
+    "options": {
+      "a": "Hesitant tone; Passive personality",
+      "b": "Calm, confident tone; Assertive personality",
+      "c": "Loud tone; Aggressive personality",
+      "d": "Sarcastic tone; Dominating personality"
     },
-    {
-      "question_number": 6,
-      "question": "The main component of the Internet of Things is",
-      "options": {
-        "a": "Sensors",
-        "b": "Connectivity",
-        "c": "Data Processing",
-        "d": "All of these"
-      },
-      "correct_answer": "d",
-      "explanation": "IoT relies on sensors to gather data, connectivity to transmit it, and data processing to derive actionable insights."
+    "correct_option": "b",
+    "correct_answer": "Calm, confident tone; Assertive personality",
+    "explanation": "Kindly refer lecture 4."
+  },
+  {
+    "question_number": 6,
+    "topic": "When to speak and how?",
+    "question": "Which observation is LEAST reliable as evidence of conversation dominance?",
+    "options": {
+      "a": "Repeatedly deciding who speaks next.",
+      "b": "Interrupting before others complete their points.",
+      "c": "Speaking in a naturally loud voice.",
+      "d": "Consistently redirecting topics toward one's own agenda."
     },
-    {
-      "question_number": 7,
-      "question": "State true or false. Statement: Every IoT device must have a unique identity.",
-      "options": {
-        "a": "True",
-        "b": "False"
-      },
-      "correct_answer": "a",
-      "explanation": "For effective communication and management, each device within an IoT network must be uniquely identifiable."
+    "correct_option": "c",
+    "correct_answer": "Speaking in a naturally loud voice.",
+    "explanation": "Kindly refer lecture 4."
+  },
+  {
+    "question_number": 7,
+    "topic": "Starting and sustaining a conversation",
+    "question": "A negotiator makes a well-supported offer and then remains silent while maintaining attentive eye contact. The silence primarily functions to:",
+    "options": {
+      "a": "Signal uncertainty about the offer and invite reassurance",
+      "b": "Shift the conversational burden to the other party, encouraging a considered response without weakening the position",
+      "c": "Indicate that the discussion has ended unless the offer is accepted",
+      "d": "Avoid defending the proposal if it is challenged"
     },
-    {
-      "question_number": 8,
-      "question": "Which of the following is/are not the application of IoT?",
-      "options": {
-        "a": "Smart Agriculture",
-        "b": "Industrial Automation",
-        "c": "Smart Retail",
-        "d": "None of these"
-      },
-      "correct_answer": "d",
-      "explanation": "Smart agriculture, industrial automation, and smart retail are all well-established applications of IoT technology."
+    "correct_option": "b",
+    "correct_answer": "Shift the conversational burden to the other party, encouraging a considered response without weakening the position",
+    "explanation": "Kindly refer lecture 5."
+  },
+  {
+    "question_number": 8,
+    "topic": "Starting and sustaining a conversation",
+    "question": "Which scenario best illustrates territorial behaviour?",
+    "options": {
+      "a": "A student leaves a notebook on a library desk to indicate the seat is occupied.",
+      "b": "A student greets classmates with a handshake.",
+      "c": "A teacher speaks loudly to address the class.",
+      "d": "A manager maintains eye contact during a presentation."
     },
-    {
-      "question_number": 9,
-      "question": "State true or false. Statement: IoT systems are static and do not change over time.",
-      "options": {
-        "a": "True",
-        "b": "False"
-      },
-      "correct_answer": "b",
-      "explanation": "IoT systems are dynamic, constantly evolving with new data, device updates, and changing environmental conditions."
+    "correct_option": "a",
+    "correct_answer": "A student leaves a notebook on a library desk to indicate the seat is occupied.",
+    "explanation": "Kindly refer lecture 5."
+  },
+  {
+    "question_number": 9,
+    "topic": "Starting and sustaining a conversation",
+    "question": "A senior government official asks a long-time friend to wait in the visitor's lounge until the scheduled appointment time instead of meeting immediately in the office. This behaviour is BEST interpreted as:",
+    "options": {
+      "a": "An intentional personal insult toward the friend",
+      "b": "A violation of interpersonal communication ethics",
+      "c": "Respect for institutional protocol and role boundaries rather than a personal judgment",
+      "d": "Evidence that the friendship has weakened"
     },
-    {
-      "question_number": 10,
-      "question": "The massive amount of data generated by IoT devices is known as",
-      "options": {
-        "a": "Small Data",
-        "b": "Big Data",
-        "c": "Metadata",
-        "d": "None of these"
-      },
-      "correct_answer": "b",
-      "explanation": "The high volume, velocity, and variety of data produced by billions of connected IoT devices characterize 'Big Data'."
+    "correct_option": "c",
+    "correct_answer": "Respect for institutional protocol and role boundaries rather than a personal judgment",
+    "explanation": "Kindly refer lecture 5."
+  },
+  {
+    "question_number": 10,
+    "topic": "What to listen for and why?",
+    "question": "Consider the following statements about listening:\nStatement I: In the listening process, the foreground consists of the information that receives the listener's primary attention.\nStatement II: Effective listening requires distinguishing foreground information from competing background stimuli.",
+    "options": {
+      "a": "Both Statement I and Statement II are true, and Statement II correctly explains Statement I.",
+      "b": "Both Statement I and Statement II are true, but Statement II is not the correct explanation of Statement I.",
+      "c": "Statement I is true, but Statement II is false.",
+      "d": "Statement I is false, but Statement II is true."
     },
-    {
-      "question_number": 11,
-      "question": "State true or false. Statement: Scalability is an important requirement for IoT systems.",
-      "options": {
-        "a": "True",
-        "b": "False"
-      },
-      "correct_answer": "a",
-      "explanation": "IoT systems must be scalable to handle the increasing number of devices and data as networks expand."
+    "correct_option": "a",
+    "correct_answer": "Both Statement I and Statement II are true, and Statement II correctly explains Statement I.",
+    "explanation": "Kindly refer lecture 3."
+  },
+  {
+    "question_number": 11,
+    "topic": "What to listen for and why?",
+    "question": "A listener understands not only what a speaker says but also why the speaker holds that viewpoint. This primarily reflects the ability to:",
+    "options": {
+      "a": "Decode linguistic symbols only",
+      "b": "Perceive the speaker's thoughts and belief system underlying the message",
+      "c": "Judge the speaker's credibility immediately",
+      "d": "Memorize the speaker's arguments verbatim"
     },
-    {
-      "question_number": 12,
-      "question": "IoT can be used to track the health status of a person by monitoring",
-      "options": {
-        "a": "Heart Rate",
-        "b": "Blood Pressure",
-        "c": "Physical Activity",
-        "d": "All of these"
-      },
-      "correct_answer": "d",
-      "explanation": "IoT healthcare devices can monitor multiple parameters like heart rate, blood pressure, and activity to provide a comprehensive health assessment."
+    "correct_option": "b",
+    "correct_answer": "Perceive the speaker's thoughts and belief system underlying the message",
+    "explanation": "Kindly refer lecture 3."
+  },
+  {
+    "question_number": 12,
+    "topic": "What to listen for and why?",
+    "question": "In Lament by Chekhov, the passengers primarily demonstrate:",
+    "options": {
+      "a": "Empathic listening",
+      "b": "Active listening",
+      "c": "Hearing without meaningful listening",
+      "d": "Reflective listening"
     },
-    {
-      "question_number": 13,
-      "question": "Deep learning based data analysis cannot be performed on videos",
-      "options": {
-        "a": "True",
-        "b": "False"
-      },
-      "correct_answer": "b",
-      "explanation": "Deep learning can analyze videos by processing frames to detect objects, actions, and patterns. Techniques like convolutional neural networks (CNNs) and recurrent neural networks (RNNs) make video data analysis possible and effective."
+    "correct_option": "c",
+    "correct_answer": "Hearing without meaningful listening",
+    "explanation": "Kindly refer lecture 3."
+  },
+  {
+    "question_number": 13,
+    "topic": "Understanding the communicative environment – II",
+    "question": "Which of the following is LEAST likely to be an emblem?",
+    "options": {
+      "a": "Nodding to mean \"yes.\"",
+      "b": "Waving to say \"goodbye.\"",
+      "c": "Accidentally tapping a foot due to nervousness.",
+      "d": "Beckoning someone with a hand gesture."
     },
-    {
-      "question_number": 14,
-      "question": "Which of the following are the inbuilt sensors that are present in high end smartphones?",
-      "options": {
-        "a": "ECG and EEG",
-        "b": "Accelerometer, proximity sensor, and EEG",
-        "c": "Accelerometer, Compass, and Gyroscope",
-        "d": "Pressure sensor and NPK sensor"
-      },
-      "correct_answer": "c",
-      "explanation": "High-end smartphones typically include accelerometers (for motion detection), compasses (for orientation), and gyroscopes (for precise rotation sensing). These sensors enable features like navigation, gaming, and activity tracking."
+    "correct_option": "c",
+    "correct_answer": "Accidentally tapping a foot due to nervousness.",
+    "explanation": "Kindly refer lecture 2."
+  },
+  {
+    "question_number": 14,
+    "topic": "Understanding the communicative environment – II",
+    "question": "Consider the following statements.\nStatement I: Visual aids reduce cognitive load by presenting information in a structured and complementary manner.\nStatement II: Overloading slides with excessive text and graphics can reduce communication effectiveness.",
+    "options": {
+      "a": "Both Statement I and Statement II are correct.",
+      "b": "Statement I is correct, but Statement II is incorrect.",
+      "c": "Statement I is incorrect, but Statement II is correct.",
+      "d": "Both Statement I and Statement II are incorrect."
     },
-    {
-      "question_number": 15,
-      "question": "Fill in the blank. Processing the handheld activity device data with artificial intelligence can be used for",
-      "options": {
-        "a": "Fall detection",
-        "b": "Heart rate detection",
-        "c": "Vehicle detection",
-        "d": "All of these"
-      },
-      "correct_answer": "a",
-      "explanation": "AI can process data from handheld activity devices, such as accelerometers and gyroscopes, to detect unusual movements. Fall detection uses this analysis to alert caregivers or emergency services in real time."
-    }
-  ]
-}
+    "correct_option": "a",
+    "correct_answer": "Both Statement I and Statement II are correct.",
+    "explanation": "Kindly refer lecture 2."
+  },
+  {
+    "question_number": 15,
+    "topic": "Understanding the communicative environment – II",
+    "question": "Which statement best describes the nature of a white lie?",
+    "options": {
+      "a": "It is always told under coercion.",
+      "b": "It is an involuntary response to conflict.",
+      "c": "It is never ethically acceptable.",
+      "d": "It is usually a voluntary communicative choice made under social or interpersonal pressure."
+    },
+    "correct_option": "d",
+    "correct_answer": "It is usually a voluntary communicative choice made under social or interpersonal pressure.",
+    "explanation": "Kindly refer lecture 2."
+  }
+]
